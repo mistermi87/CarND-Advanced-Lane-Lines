@@ -34,8 +34,8 @@ The goals / steps of this project are the following:
 
 #### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one.  You can submit your writeup as markdown or pdf. 
 
-In this writeup I will focus on the pipeline of an input stream (video). A single image is computed the same way as an video frame, when the lane lines were not detected in the previous frames (excluding smoothing of lane lines).
-The example images are used from a scenario where the left line detection partially fails. It is a good demonstration of the current algorithms limitation.
+In this writeup I will focus on the pipeline of an input stream (video). This is basically a description of the file [pipeline.ipynb](./pipeline.ipynb). A single image is computed the same way as an video frame, when the lane lines were not detected in the previous frames (excluding smoothing of lane lines).
+The example images are used from a scenario where the left line detection partially fails. It is a good demonstration of the current algorithm's limitation.
 
 ### Camera Calibration
 
